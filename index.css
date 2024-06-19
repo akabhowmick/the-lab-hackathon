@@ -1,12 +1,13 @@
 /* Define color palette */
 :root {
-  --primary-color: #3498db;
-  --secondary-color: #2ecc71;
-  --accent-color: #e74c3c;
-  --background-color: #ecf0f1;
+  --primary-color: #00538c;
+  --secondary-color: #002b5e;
+  --accent-color: #000000;
+  --background-color: #b8c4ca;
   --text-color: #2c3e50;
-  --heading-color: #34495e;
+  --heading-color: #fafafa;
 }
+/* Dallas Mavericks colors: #00538C for royal blue, #002B5E for navy blue, #B8C4CA for silver, and #000000 for black */
 
 /* Global Styles */
 body {
@@ -16,7 +17,12 @@ body {
 }
 
 /* Headings */
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: var(--heading-color);
   margin-top: 1em;
   margin-bottom: 0.5em;
