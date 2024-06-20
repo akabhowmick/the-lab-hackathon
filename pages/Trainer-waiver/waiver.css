@@ -108,3 +108,11 @@ ul li {
     margin: 0 300px;
     text-align: justify;
 }
+
+.btn {
+    padding: 10px 50px;
+    margin: 20px 0 50px 500px;
+    background-color: var(--primary-color);
+    color: var(--heading-color);
+    border: none;
+}
