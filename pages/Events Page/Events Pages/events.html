@@ -1,43 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="stylesheet" href="./Event Styles/index.css" />
+    <link rel="stylesheet" href="./Event Styles/events.css" />
+    <script
+      src="https://kit.fontawesome.com/f0b5106443.js"
+      crossorigin="anonymous"
+    ></script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Events Page</title>
-    <link rel="stylesheet" href="../events.css" />
   </head>
   <body>
     <nav class="navbar nav">
       <div class="container">
-        <a href="#">Home</a>
-        <a href="#">Events</a>
-        <a href="#">In-Person Training</a>
-        <a href="#">Free Session</a>
-        <div class="dropDown">
-          <span>More</span>
-          <a href="#">Page1</a>
-          <a href="#">Page1</a>
-          <a href="#">Page1</a>
-          <a href="#">Page1</a>
-        </div>
+        <a href="#" class="navLink">Home</a>
+        <a href="#" class="navLink">Events</a>
+        <a href="#" class="navLink">In-Person Training</a>
+        <a href="#" class="navLink">Free Session</a>
+        <!--Optional Dropdown-->
       </div>
     </nav>
-    <h1>Private Training Session 1</h1>
-    <p>
-      WARNING!!
-      <br />
-      SIGNING UP TO THE LAB WILL CHANGE YOUR LIFE !!
-    </p>
-    <button class="Purchase">Come Get That Work!!</button>
+    <div class="pageTitle">
+      <h1>Private Training Session 1</h1>
+      <p id="tagLine"><em>WARNING!!</em></p>
+      <p id="lifeLine">
+        <em>SIGNING UP TO THE LAB WILL CHANGE YOUR LIFE!!</em>
+      </p>
+      <button class="Purchase">Come Get That Work!!</button>
+    </div>
     <br />
-    <img src="" alt="Background with Schedule" />
+    <img
+      src="./Event Assets/Ball on Court.jpg"
+      alt="Background with Schedule"
+      class="picked"
+    />
     <h2>Location</h2>
     <address>
       4707 WEST LOOP 289<br />
       Lubbock, TX 79414
     </address>
-    <h4>About the Session</h4>
-    <p>Sessions are tailored to player experience and weaknesses.</p>
+    <div class="disclaimer">
+      <h4>About the Session</h4>
+      <p>
+        <em>*Sessions are tailored to player experience and weaknesses.</em>
+      </p>
+    </div>
     <h4>Tickets</h4>
     <div>
       <!--Here is a grid layout with types of tickets and quantities and prices that will calculate themselves at the bottom-->
@@ -45,11 +53,24 @@
     <h4>Total</h4>
     <button>Checkout</button>
     <!-- Insert a Map Here -->
+    <!--    <div id="googleMap" style="width:100%;height:400px;"></div>
+    <script>
+      function myMap() {
+      var mapProp= {
+        center:new google.maps.LatLng(51.508742,-0.120850),
+        zoom:5,
+      };
+      var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+      }
+      </script>
+      
+      <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+-->
     <h4>Share This Event!</h4>
     <!--Social Media Icons Here-->
-    <a href="#">Facebook Icon</a>
-    <a href="#">Instagram Icon</a>
-    <a href="#">Twitter Icon</a>
+    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+    <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
     <footer>
       <p>Copyright 2024</p>
     </footer>
