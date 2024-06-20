@@ -87,6 +87,8 @@ ul li {
     font-style: italic;
 }
 
+.form-info .email{margin-left: 25px;}
+
 .last .calendar{
     color: var(--primary-color);
     position: relative;
